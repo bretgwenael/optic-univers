@@ -1,0 +1,10 @@
+$header-height: 60px; // Hauteur du header
+  // Style du Header
+  header {
+    height: $header-height; // Hauteur fixe
+    background-color: #f8f9fa; // Couleur de fond
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
